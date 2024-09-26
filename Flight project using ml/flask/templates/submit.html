@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<title>Flight Price Prediction</title>
+<head>
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover {
+          background-color: #111;
+        }
+        h1{
+        text-align:center;
+        }
+        p{
+        text-align:center;
+        }
+        </style>
+</head>
+
+<body style="background-image: url('/static/flight1.jpg'); background-repeat: no-repeat;background-size: cover;background-attachment: fixed;">
+    <ul>
+        <li><a class="active" href="/">Home</a></li>
+        <li><a href="/predict">Predict</a></li>
+      </ul>
+      <br/>
+      <br/>
+    <h1>Flight Price Prediction</h1>
+    <br/>
+<div>
+    <p><font size="6">Based on the given input, we can get the flight price as {{prediction_text }} INR.</font></p>
+</div>
+</body>
+</html>
