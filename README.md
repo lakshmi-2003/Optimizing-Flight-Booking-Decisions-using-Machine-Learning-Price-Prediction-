@@ -30,10 +30,10 @@ The architecture of the system involves the following components:
 1. Clone the repository:
   git clone https://github.com/lakshmi-2003/Optimizing-Flight-Booking-Decisions-using-Machine-Learning-Price-Prediction-.git  
 2. Install the required libraries:
-  pip install pandas
-  pip install numpy
-  pip install seaborn
-  pip install matplotlib.pyplot  
+  * pip install pandas
+  * pip install numpy
+  * pip install seaborn
+  * pip install matplotlib.pyplot  
 3. Run the application:
   python app.py  
 # Future Enhancements
